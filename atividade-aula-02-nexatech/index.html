@@ -5,22 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexaTech</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>NexaTech - Inovação e Tecnologia</h1>
-        <p>Inovação e tecnologia para transformar ideias em soluções.</p>
+    <header class="cabecalho">
+        <div class="cabecalho-conteudo">
+            <h1>NexaTech - Inovação e Tecnologia</h1>
+            <p>Inovação e tecnologia para transformar ideias em soluções.</p>
+        </div>
     </header>
-    <nav>
+    <nav class="menu">
         <a href="#inicio">Início</a>
         <a href="#sobre">Sobre Nós</a>
         <a href="#servicos">Serviços</a>
         <a href="#contato">Contato</a>
     </nav>
     <main>
-        <section id="inicio">
+        <section id="inicio" class="secao">
             <h2>Bem-vindo a NexaTech</h2>
             <p>
                 A <strong>NexaTech</strong> é uma empresa de tecnologia especializada em soluções digitais para empresas
@@ -33,7 +35,7 @@
             <img src="assets/ChatGPT Image 13 de ago. de 2026, 12_54_26.png" alt="Imagem representando a NexaTech">
         </section>
 
-        <section id="sobre">
+        <section id="sobre" class="secao">
             <h2>Sobre Nós</h2>
 
             <p>
@@ -54,24 +56,45 @@
                 Confira alguns dos serviços oferecidos pela NexaTech:
             </p>
 
-            <ul>
-                <li>Criação de sites</li>
-                <li>Desenvolvimento de sistemas</li>
-                <li>Manutenção de computadores</li>
-                <li>Suporte técnico</li>
-            </ul>
+            <div class="servicos-grid">
+                <div class="card-servico">
+                    <h3>Criação de Sites</h3>
+                    <p>Desenvolvimento se sites modernos e responsivos.</p>
+                </div>
 
-            <h3>Como trabalhamos</h3>
+                <div class="card-servico">
+                    <h3>Desenvolvimento de Sistemas</h3>
+                    <p>Criação de sistemas para facilitar processos e tarefas.</p>
+                </div>
 
-            <ol>
-                <li>Conversamos com o cliente</li>
-                <li>Identificamos suas necessidades</li>
-                <li>Desenvolvimento a solução</li>
-                <li>Entregamos o projeto</li>
-            </ol>
-        </section>
+                <div class="card-servico">
+                    <h3>Manutenção de Computadores</h3>
+                    <p>Manutenção e configuração de computadores e equipamentos.</p>
+                </div>
 
-        <section id="contato">
+                <div class="card-servico">
+                    <h3>Suporte Técnico</h3>
+                    <p>Auxílio técnico para resolver problemas de tecnologia.</p>
+                </div>
+
+            </div>
+
+            <div class="processo">
+
+                <h3>Como trabalhamos</h3>
+                
+                <ol>
+                    <li>Conversamos com o cliente</li>
+                    <li>Identificamos suas necessidades</li>
+                    <li>Desenvolvemos a solução</li>
+                    <li>Entregamos o projeto</li>
+                </ol>
+
+            </div>
+
+            </section>
+
+        <section id="contato" class="secao">
             <h2>Entre em Contato</h2>
 
             <p>
